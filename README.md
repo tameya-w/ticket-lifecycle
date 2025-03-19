@@ -33,12 +33,27 @@ This guide walks through the **ticket lifecycle process** in **osTicket**, from 
   - `SLA`
   - `Assigned To`
 
+![Screenshot 2025-03-18 220456](https://github.com/user-attachments/assets/b0382fef-19c6-4b0d-bc53-f9f2180ea5f5)
 
 - **Set Ticket Properties:**
   - `Sev-A (1 hour, 24/7)`
-  - `Online Banking Department`
+![Screenshot 2025-03-18 221253](https://github.com/user-attachments/assets/8fcd94f8-fd06-4201-8bc1-ccf042eb76eb)
+
+![Screenshot 2025-03-18 221451](https://github.com/user-attachments/assets/bfb29af2-b000-454f-b40d-0b08558aa18d)
+
+   - `Online Banking Department`
+![Screenshot 2025-03-18 221930](https://github.com/user-attachments/assets/28c1f84d-716d-4c67-af2a-b6edfed6c362)
+
+
 - **Check Visibility:** Can John still view/change the ticket?
+
+![Screenshot 2025-03-18 222022](https://github.com/user-attachments/assets/53820a9a-4965-43eb-bdb9-973d56815225)
+John does not have the same level of access as the Online Banking team, so the ticket is no longer viewable.
+
 - **Work Ticket to Completion as Jane**
+ ![image](https://github.com/user-attachments/assets/afced6e8-47d5-42f0-adbd-8f74cbe32097)
+
+
 
 #### **Ticket 2: Adobe Upgrade Issue**
 - **End-User Action:** Submit a ticket titled: `Accounting department needs Adobe upgrade, broken`.
