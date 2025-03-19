@@ -52,7 +52,7 @@ This guide walks through the **ticket lifecycle process** in **osTicket**, from 
 
 ![Screenshot 2025-03-18 222022](https://github.com/user-attachments/assets/53820a9a-4965-43eb-bdb9-973d56815225)
 
-John does not have the same level of access as the Online Banking team, so the ticket is no longer viewable.
+Since John is assigned to the Help Desk, he does not have access to the Online Banking team's tickets unless explicitly granted permissions in osTicket.
 
 **Work Ticket to Completion as Jane**
 
@@ -66,7 +66,8 @@ John does not have the same level of access as the Online Banking team, so the t
 
   🔹 Troubleshooting & Resolution:
 
-  - If hardware-related, test with another charger or battery.
+  - Check if the server hosting the banking system is reachable and restart web services if       necessary.
+  - Test system access from a different network or VPN to rule out local issues.
   - Perform a hard reset (holding power button for 10-15 seconds).
    - Boot into Safe Mode to rule out software issues.
    - If it’s a major hardware failure, escalate to the SysAdmins or IT procurement team.
@@ -195,6 +196,8 @@ Ticket 3: CFO’s Laptop Won’t Turn On
 ### 3 Solve All Tickets
 - Work all tickets to completion.
 - Understand that **osTicket (and most ticketing systems) includes an email feature** to notify users of updates.
+- When an issue is escalated, osTicket automatically notifies the new assignee via email. Users also receive email updates for status changes, keeping them informed.
+
 
 ### 4 Understanding Real-World Ticket Intake
 - Tickets can be created via:
